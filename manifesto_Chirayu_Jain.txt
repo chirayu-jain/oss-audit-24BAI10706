@@ -1,0 +1,6 @@
+--- The Open Source Manifesto of Chirayu_Jain ---
+Date: 31 March 2026
+
+I believe that software should be built in the open. Every day, I rely on tools like VS Code to do my work and expand my skills.
+To me, the core of the open-source philosophy comes down to one word: Choice.
+If I could contribute to this ecosystem, I would build a water purification system and share its source code freely so that others can learn, modify, and improve it.
