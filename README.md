@@ -43,14 +43,14 @@ chmod +x script5.sh
 
 **Script 1**
 ```bash
-./SystemIdentityReport.sh
+./script1.sh
 ```
 Displays a welcome page with your OS, kernel version, your username, time up and license details of Git.
 
 **Script 2**
 ```bash
-./FOSSPackageInspector.sh
-./FOSSPackageInspector.sh git
+./script2.sh
+./script2.sh git
 ```
 Any package name may be passed or can be left blank which default to git.  
 Indicates whether or not it is in place, and version and whereabouts with a philosophy note.
@@ -58,7 +58,7 @@ Indicates whether or not it is in place, and version and whereabouts with a phil
 
 **Script 3**
 ```bash
-./PermissionAuditor.sh
+./script3.sh
 ```
 Browses in directories, such as /etc, /var/log, /usr/bin and displays the owner and size of them.  
 Also checks for .gitconfig.
@@ -66,8 +66,8 @@ Also checks for .gitconfig.
 
 **Script 4**
 ```bash
-./LogFile.sh
-./LogFile.sh /var/log/system.log error
+./script4.sh
+./script4.sh /var/log/system.log error
 ```
 Processes a line of a log file and counts the number of matches of the key word.   
 Sees the previous 5 lines which there are a replica.
@@ -75,7 +75,7 @@ Sees the previous 5 lines which there are a replica.
 
 **Script 5**
 ```bash
-./Manifesto.sh
+./script5.sh
 ```
 Goes through the 3 questions and personal open source manifesto using interactive question and answer.  
 Also stores your personal open source manifesto as a personal file.
